@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background:linear-gradient(180deg,white 25%,rgb(209, 239, 245) 50%,rgb(119, 209, 248) 75%, rgb(91, 195, 243)100%);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.data{
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 8px 15px rgba(0,0,0 , 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: left;
+}
+input,button{
+  margin:10px;
+  border: none;
+  
+}
+input{
+  width:120px;
+  height: 40px;
+  border-radius: 30%;
+  text-align: center;
+  font-size: medium;
+}
+input:hover{
+  width:125px;
+  height:50px;
+ font-size: medium;
+}
+button{
+  background-color: white;
+  width:80px;
+  height: 40px;
+  border-radius: 40%;
+}
+button:hover{
+  background-color: rgb(2, 6, 11);
+  color:aliceblue;
+width: 70px;
+height: 40px;;
+}
